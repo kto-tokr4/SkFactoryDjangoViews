@@ -1,0 +1,24 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %}</title>
+    <link href="{% static 'css/news.css' %}" rel="stylesheet">
+</head>
+<main class="content">
+    {% block content %}
+    {% endblock %}
+</main>
+
+<aside class="sidebar">
+    {% block sidebar %}
+        <p>This is News Portal for<br>SkillFactory!</p>
+    {% endblock %}
+</aside>
+
+
+<footer class="footer">
+    <p>SkillFactory project</p>
+</footer>
+</html>

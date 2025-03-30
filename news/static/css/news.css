@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-size: 100%;
+}
+
+.content {
+    background-color: #f4f4f4;
+    float: left;
+    width: 85%;
+    height: 95vh;
+}
+
+
+.sidebar {
+    background-color: #f7f7f7;
+    border-left: 2px solid #d3d3d3;
+    float: right;
+    width: 15%;
+    height: 95vh;
+}
+
+.sidebar p {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 50px;
+}
+.sidebar a{
+    text-decoration: none;
+    color:black;
+}
+.footer {
+    background-color: #b3b3b3;
+    clear: both;
+    height: 5vh;
+}
+
+.footer p {
+    text-align: center;
+    font-size: 24px;
+}
+
+.post,.post_info {
+    margin: 10px 20px;
+    padding-bottom: 30px;
+}
+
+.post_title {
+    font-size: 32px;
+    font-family: "Comic Sans MS";
+    text-decoration: none;
+    color: black;
+    word-spacing: 10px;
+    text-transform: uppercase;
+    line-height: 80px;
+}
+
+.post_text {
+    font-size: 24px;
+    text-align: justify;
+    width: 30em;
+    line-height: 30px;
+}
+
+.post_author {
+    font-size: 16px;
+    font-family: "Bookman Old Style";
+    line-height: 70px;
+}

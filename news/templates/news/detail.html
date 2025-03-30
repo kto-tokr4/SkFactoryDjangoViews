@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% load news_tags %}
+{% block content %}
+<div class="post_info">
+    <p class="post_title">{{ post.title }}</p>
+    <p class="post_text">{{ post.text|censor }}</p>
+    <p class="post_author"> Published by {{ post.author.user.username }} {{ post.created|date:"d m Y" }}</p>
+</div>
+{% endblock %}
+{% block sidebar %}
+    <a href="{% url "news:list" %}"><p>Do you want to go back?</p></a>
+{% endblock %}
